@@ -1,0 +1,79 @@
+<!-- HEADER -->
+<h1 align="center">⚡ ESP32-C3 IoT Dev Board: 4-Layer Design & Altium Workflow ⚡</h1>
+<h3 align="center">A Compact, Rule-Driven PCB Design Optimized for IoT Applications</h3>
+
+---
+
+## 🧠 Project Overview
+This project showcases a **4-layer ESP32-C3 IoT Development Board**, fully designed in **Altium Designer**.  
+The goal was to implement a structured, **rules-driven PCB design process** — covering component placement, stackup planning, constraint management, and DRC validation.
+
+The **4-layer stackup** was created for stable power delivery and clean signal integrity:
+- **In1.Cu:** Dedicated Ground Plane  
+- **In2.Cu:** Dedicated 3.3V Plane  
+
+These planes ensure low noise, reliable return paths, and improved RF performance for the ESP32-C3 module.
+
+---
+
+## 🔍 Key Learnings & Design Highlights
+
+### 1. 🧩 Zoned Design
+- Components were grouped into **logical regions** — *MCU Core, Power Supply, Sensor Interfaces, and Programming Section* — to maintain short, efficient signal paths.  
+- Power distribution used the **internal 3.3V plane** along with **VBUS, 5V, and GND copper pours** on the outer layers to achieve compact routing and minimal voltage drop.
+
+### 2. ⚙️ Rules-Driven Design (Altium Constraints)
+- Created and managed **10+ custom Net Classes** (for I²C, SPI, 3.3V, VBUS, GPIO, etc.) in **Altium’s PCB Rules & Constraints Editor**.  
+- Each class had dedicated **trace width, clearance, and via size rules**, enabling early detection of design violations and ensuring manufacturability.
+
+### 3. 🕳️ Strategic Via Usage
+- Implemented **via stitching** across GND regions to form a solid reference plane and reduce EMI.  
+- Controlled via aspect ratios and pad stacks for reliability during PCB fabrication.
+
+---
+
+## 📐 PCB Stackup
+
+| Layer | Name | Description |
+|:------|:-----|:-------------|
+| Layer 1 | Top Layer (F.Cu) | Signal + Power (5V, 3.3V pours) |
+| Layer 2 | In1.Cu | Ground Plane |
+| Layer 3 | In2.Cu | 3.3V Plane |
+| Layer 4 | Bottom Layer (B.Cu) | Signal + Ground Stitching |
+
+---
+
+## 🛠️ Tools & Specifications
+- **EDA Software:** Altium Designer  
+- **Microcontroller:** ESP32-C3 (Wi-Fi + BLE)  
+- **Board Type:** 4-Layer FR4  
+- **Design Focus:** Power integrity, EMI reduction, and clean routing  
+- **Output Files:** Gerbers, Drill files, Pick & Place, 3D STEP  
+
+---
+
+## 📸 Visuals (Optional)
+> Add renders or actual board photos here  
+> Example:
+> ![Top Layer](images/top_layer.png)
+> ![3D View](images/3d_view.png)
+> ![Routing Preview](images/routing.png)
+
+---
+
+## 📚 Future Improvements
+- Add **USB-C Power Input** with overcurrent & ESD protection  
+- Include **current sensing (INA219/INA238)** for load monitoring  
+- Expand **sensor headers and GPIO** for modular IoT prototyping  
+
+---
+
+## 💬 Author
+**👨‍💻 Harsh Saini**  
+_Embedded Systems & Hardware Design Engineer_  
+📧 [saini.harsh.in@gmail.com](mailto:saini.harsh.in@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/harshsaini) | [GitHub](https://github.com/harshsaini)
+
+---
+
+⭐ *If you found this project interesting, consider starring the repository to support more open-source hardware builds!*  
