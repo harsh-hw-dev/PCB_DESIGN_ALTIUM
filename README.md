@@ -14,7 +14,7 @@ Passionate about **multilayer PCB layouts**, **signal integrity**, and **embedde
 ## 🚀 Let’s Connect
 
 💬 **Discuss Ideas:** Hardware Design, Embedded Systems, and PCB Layouts  
-🐦 **Twitter (X):** [@harsh_hw_dev](https://x.com/harsh_hw_dev)  
+🐦 **Twitter (X):** [@HarshSaini7129]( (https://x.com/HarshSaini7129))  
 📧 **Email:** [saini.harsh.in@gmail.com](mailto:saini.harsh.in@gmail.com)  
 🌐 **Portfolio (Coming Soon):** [harsh-hw-dev.github.io](https://harsh-hw-dev.github.io)  
 
