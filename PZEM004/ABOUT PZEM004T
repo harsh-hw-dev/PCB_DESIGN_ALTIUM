@@ -1,0 +1,54 @@
+⚡ PZEM004T Power Monitoring Module | Altium Designer Project
+
+“Precision meets performance — a complete PCB design for real-time power measurement and monitoring.”
+
+📘 Overview
+
+This repository contains the complete PCB design files for the PZEM004T power monitoring module, designed using Altium Designer.
+The project focuses on accurate measurement of voltage, current, power, and energy consumption, making it suitable for IoT, automation, and embedded power management applications.
+
+🧠 Key Features
+
+⚙️ Measurement Parameters: Voltage, Current, Power, Energy, Frequency, and Power Factor
+
+🔌 Communication Interface: UART (TTL level)
+
+⚡ Input Voltage Range: 80V – 260V AC
+
+🔋 Current Measurement: Up to 100A (with external current transformer)
+
+🧩 Compact and Reliable PCB Layout for integration with ESP32, Arduino, STM32, and other microcontrollers
+
+🛠️ Designed in Altium Designer with proper grounding, trace width optimization, and component placement for noise reduction
+
+🧱 Hardware Design
+
+Software Used: Altium Designer
+
+Layers: 2-Layer PCB
+
+Power Supply: 5V DC
+
+Connector Type: 4-Pin UART header
+
+Mounting: Through-hole + SMD hybrid design
+
+🧩 Bill of Materials (BOM)
+Component	Description	Package	Quantity
+PZEM004T IC	Power measurement IC	Module	1
+LM7805	Voltage regulator	TO-220	1
+10µF / 100nF	Capacitors	SMD/TH	2
+Resistors	Various (10kΩ, 1kΩ)	0603 / 0805	-
+Header Pins	UART interface	1x4	1
+LED	Power indicator	0805	1
+🧠 Applications
+
+Smart Energy Monitoring Systems
+
+Industrial and Home Automation
+
+IoT Power Management Nodes
+
+Load Analysis and Energy Auditing
+
+Embedded Systems Projects
