@@ -1,0 +1,20 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [FR120N_MOSFET.PrjPcb]
+   Generated File[PCB1_Legend_Top.gbr]
+   Generated File[PCB1_Paste_Top.gbr]
+   Generated File[PCB1_Soldermask_Top.gbr]
+   Generated File[PCB1_Copper_Signal_Top.gbr]
+   Generated File[PCB1_Copper_Signal_Bot.gbr]
+   Generated File[PCB1_Soldermask_Bot.gbr]
+   Generated File[PCB1_Paste_Bot.gbr]
+   Generated File[PCB1_Legend_Bot.gbr]
+   Generated File[PCB1_Profile.gbr]
+   Generated File[PCB1.EXTREP]
+   Generated File[PCB1.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 17:06:38 On 16-04-2026
